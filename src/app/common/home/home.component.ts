@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  scrolltop = document.getElementById("scrolltop");
+  rootelement = document.documentElement;
+
+  scroll() {
+    this.rootelement.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 }

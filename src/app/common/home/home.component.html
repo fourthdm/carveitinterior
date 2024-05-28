@@ -1,3 +1,4 @@
+<br>
 <div class=" carrd">
     <div class="card-body">
         <!-- Carousel wrapper -->
@@ -56,7 +57,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-6">
-            <div class=" carrd" style="height: 85%;">
+            <div class=" carrd" style="height: 85%;padding: 2%;">
                 <div class="card-body">
                     <h1 style="color: white;">Welcome To <span class="carvet">CARVEIT INTERIORS</span></h1>
 
@@ -66,7 +67,8 @@
                         same. <br>
                         We are here to carve your dream for a beautiful home into reality. </p>
 
-                    <p style="color: #ffa719;" [routerLink]="['/Textdata']"><i class="fa fa-light fa-angles-down"></i>
+                    <p style="color: #ffa719;" (click)="scroll()" [routerLink]="['/Textdata']"><i
+                            class="fa fa-light fa-angles-down"></i>
                         <b> Read More</b>
                     </p>
                 </div>
@@ -84,7 +86,8 @@
                         We that every individual have a special ,intimate / cherished ,
                         emotional bond with their homes.
                     </p>
-                    <p style="color: #ffa719;" [routerLink]="['/About']"><i class="fa fa-light fa-angles-down"></i> <b>
+                    <p style="color: #ffa719;" (click)="scroll()" [routerLink]="['/About']"><i
+                            class="fa fa-light fa-angles-down"></i> <b>
                             Read More</b></p>
                 </div>
             </div>
@@ -156,4 +159,51 @@
 
     </div>
 </div>
+<br>
+
+<div class="container">
+    <div class="row">
+        <br>
+        <h1 style="text-align: center; color: #ffa719;">Our Services</h1>
+        <br> <br><br>
+        <div class="col-md-4">
+            <div class="caarrd" [routerLink]="['/Interiordesign']">
+                <div style="padding: 1%;">
+                    <img src="/assets/services/Interior.JPG" class="card-img-top imgs" alt="...">
+                    <h6 class="card-text" style="text-align: center;"><b>Interior Services</b></h6>
+                    <a href="#" [routerLink]="['/Interiordesign']" class="arrow"><i
+                            class="fa-solid fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <br> <br>
+        </div>
+        <br> <br>
+
+        <div class="col-md-4">
+            <div class="caarrd" [routerLink]="['/Architectservice']">
+                <div style="padding: 1%;">
+                    <img src="/assets/services/Arc.PNG" class="card-img-top imgs" alt="...">
+                    <h6 class="card-text "><b>Architectural Services</b></h6>
+                    <a href="#" [routerLink]="['/Architectservice']" class="arrow"><i
+                            class="fa-solid fa-chevron-down"></i></a>
+                </div>
+            </div> <br>
+        </div>
+        <br>
+        <br>
+        <div class="col-md-4">
+            <div class="caarrd " [routerLink]="['/Civilservice']">
+                <div style="padding: 1%;">
+                    <img src="/assets/services/Civil_site.jpg" class="card-img-top imgs" alt="...">
+                    <h6 class="card-text" style="text-align: center;"><b>Civil Services</b></h6>
+                    <a href="#" [routerLink]="['/Civilservice']" class="arrow"><i
+                            class="fa-solid fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <br> <br>
+        </div>
+    </div>
+</div>
+
 <app-process></app-process>
+<app-completedproject></app-completedproject>

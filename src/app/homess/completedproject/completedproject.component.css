@@ -22,8 +22,6 @@
     height: 100%;
 }
 
-
-
 .img {
     height: 20%;
     width: 100%;
@@ -50,4 +48,19 @@ h6,p{
  .btn {
         margin-left: 0rem;
     }
+}
+
+
+.card {
+    width: 100%;
+    cursor: pointer;
+    /* height: 100%; */
+}
+*{
+    cursor: pointer;
+}
+
+h6{
+    font-weight: bold;
+    text-align: center;
 }

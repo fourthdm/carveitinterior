@@ -51,3 +51,97 @@ img{
     background-color: #ffa719;
     padding-top: 2%;
 }
+
+
+
+
+.caarrd {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #3A3B3C;
+    border-radius: 2%;
+}
+
+@media(max-width:768px) {
+    .caarrd {
+        height: auto;
+    }
+}
+.imgs:hover{
+    animation: animate 1s infinite;
+}
+
+.p {
+    font-size: 19px;
+}
+
+@media(max-width:439px) {
+    .p {
+        font-size: 15px;
+    }
+}
+
+.card-text {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media(max-width:439spx) {
+    
+    .arrow {
+        margin-left: 20%;
+    }
+}
+
+@media(max-width:1024px) {
+     .card-text {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cardd p {
+        font-size: 20px;
+    }
+}
+
+.arrow {
+    padding-left: 11rem;
+    color: #ffa719;
+    font-weight: 500;
+}
+
+@media(max-width:1024px) {
+    .arrow {
+        padding-left: 6rem;
+    }
+    .card-text{
+        font-size: larger;
+    }
+}
+
+@media(max-width:768px) {
+    .arrow {
+        padding-left: 6rem;
+    }
+
+    .card-text {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .cardd p {
+        font-size: 15px;
+    }
+}
+
+
+@keyframes animate{
+    0%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale3d(1.5);
+    }
+}
