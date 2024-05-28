@@ -1,0 +1,32 @@
+
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+h3{
+    text-decoration: underline;
+ }
+ 
+ h3:hover{
+    text-align: center;
+ }
+ 
+ @media(max-width:400px){
+    .container{
+        padding: 10%;
+    }
+ }
+ 
+ .i{
+    font-size: 15px;
+ }
+
+ .i:hover{
+    text-decoration: underline;
+    color: goldenrod;
+ }
+
+ .container{
+   color: black;
+ }
