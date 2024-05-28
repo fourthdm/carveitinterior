@@ -1,0 +1,53 @@
+.carrd {
+    background-color: #3A3B3C;
+    border: none;
+    border-radius: 0%;
+    padding: 1%;
+}
+
+.d-block {
+    height: 50rem;
+}
+
+.carvet {
+    color: #ffa719;
+    /* font-size: 60px; */
+    font-weight: bolder;
+}
+
+.p {
+    font-size: 18px;
+    color: white;
+}
+
+@media(max-width:414px) {
+    .d-block {
+        height: auto;
+    }
+
+    .carvet {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:1440px) {
+    .d-block {
+        height: 100%;
+    }
+
+
+    .p {
+        font-size: 13px;
+        color: white;
+    }
+}
+
+
+img{
+    width: 100%;
+}
+
+.card{
+    background-color: #ffa719;
+    padding-top: 2%;
+}

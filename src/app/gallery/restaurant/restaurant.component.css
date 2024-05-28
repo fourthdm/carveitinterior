@@ -1,0 +1,24 @@
+
+h1{
+    color: #ffa719;
+}
+
+@media (max-width:1440px){
+    .carousel-indicators{
+        padding-left: 25rem;
+    }
+}
+
+.card{
+    border: 7px solid #3a3a3a9e;
+    border-radius: 0%;
+}
+
+@media (max-width:414px){
+    .carousel-indicators{
+        padding: 0;
+    }
+    .btnstyle{
+        margin-bottom: 0;
+      }
+}

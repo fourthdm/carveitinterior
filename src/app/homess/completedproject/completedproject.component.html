@@ -1,1 +1,266 @@
-<p>completedproject works!</p>
+<!-- Carousel wrapper -->
+
+
+
+
+<div class="main">
+
+    <h1 style="text-align: center; color: white;">Completed Projects</h1>
+    <!-- Carousel wrapper -->
+    <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+        <!-- Controls -->
+        <div class="d-flex justify-content-center mb-4">
+            <button class="carousel-control-prev position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next position-relative" type="button"
+                data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Inner -->
+        <div class="carousel-inner py-4">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2  g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Dr.SnehalSonarkarImage.jpeg" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h3 class="mb-3" style="color: white;">Dr. Snehal Sonarkar</h3>
+                                    <p>Founder of The Gleam Smile Dental Care, Nagpur</p>
+                                    <br>
+                                    <p class="text-unmuted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Thank you, CarveIt Interiors, for creating such a peaceful and calm environment
+                                        to work in.
+                                        <i class="fas fa-quote-right pe-2"></i>
+                                    </p>
+                                    <a href="#" (click)="scrollToTop()" [routerLink]="['/Client1']"><button
+                                            class="btn btn"
+                                            style="text-align: center;background-color: #3A3B3C;color: white; margin-top: 5%;">Know
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-md-block  d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Dr.PavanRathodImage.jpeg" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h3 class="mb-3"> Dr. Pavan Rathod</h3>
+                                    <p> Maxillofacial surgeon founder of Dentocare Clinic, Nagpur</p> <br>
+                                    <p class="text-unmuted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Thank you so much, CarveIt Interiors. Working with you has been a great
+                                        experience. I hope we can work together again.
+                                    </p>
+                                    <a href="#" (click)="scrollToTop()" [routerLink]="['/Client2']"><button
+                                            class="btn btn"
+                                            style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Mrs. Preetika Raundhal_Edit.jpg" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h3 class="mb-3"> Mrs. Preetika Raundhal</h3>
+                                    <p>Pune</p> <br>
+                                    <p class="text-unmuted" style="font-size: 14px; ">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        CarveIt Interiors did a fantastic job on our entrance foyer. They listened
+                                        carefully to our ideas and brought them to fruition. They were very affordable
+                                        and worked very hard to finish the project on time.
+                                        Do not hesitate to make an appointment with CarveIt Interiors. You will not be
+                                        disappointed.
+
+                                    </p>
+                                    <a href="#" style="text-align: end;" (click)="scrollToTop()"
+                                        [routerLink]="['/Client3']"><button class="btn btn"
+                                            style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2  g-4">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Mr.Jasjit Chopra_Edit.jpg" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h3 class="mb-3">Mr.Jasjit Chopra </h3>
+                                    <p>Founder& Director at PENTHARA Technologies Chandigarh.</p>
+                                    <p style="color: white; font-size: 14px; text-align: justify;" class="text-unmuted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        CarveIt Interiors, you guys are an amazing architect who are created a stunning
+                                        office space for Penthara Technologies.
+                                        You have shown great creativity, skill, and dedication in designing many
+                                        iterations and providing valuable input on practical usage and long-term
+                                        scenarios for operations and maintenance.
+                                        You have exceeded our expectations and delivered a masterpiece that reflects
+                                        your vision and expertise. We are grateful for your hard work and
+                                        professionalism. You guys made us proud and happy.
+                                        Thank you, CarveIt Interiors! 👏👏👏
+                                    </p>
+
+                                    <button (click)="scrollToTop()" [routerLink]="['/Client4']" class="btn btn"
+                                        style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                        More</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4  d-none d-md-block   d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Mrs_Priya shahu.jpg" alt="avatar" style="width: 150px;" />
+                                    <h3 class="mb-3" style="color: white;">Mrs. Priya shahu & C.A Anshul shahu</h3>
+                                    <p></p>
+                                    <p class="text-unmuted" style=" text-align: justify;">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Dear Carveit team,
+                                        Hope you are achieving your new heights and accomplishing everyones dreams
+                                        space.
+                                        I am here to thank you for making our space
+                                        "HOME SWEET 🏠" . We are really amazed and happy with our decision to work with
+                                        your team.
+                                        Best part of your team is that you clearly understood our requirements and
+                                        taste,
+                                        most important is your service and support.
+                                        Looking forward to start our new project very soon ..👍
+                                    </p>
+                                    <a href="#" (click)="scrollToTop()" [routerLink]="['/Client5']"><button
+                                            class="btn btn"
+                                            style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img class="rounded-circle shadow-1-strong mb-4"
+                                        src="/assets/Reviews/Dr.PavanRathodImage.jpeg" alt="avatar"
+                                        style="width: 150px;" />
+                                    <h3 class="mb-3">Dr. Pavan Rathod</h3>
+                                    <p>Maxillofacial surgeon founder of Dentocare Clinic, Nagpur</p>
+                                    <p class="text-unmuted">
+                                        <i class="fas fa-quote-left pe-2"></i>
+                                        Thank you so much, CarveIt Interiors. Working with you has been a great
+                                        experience. I hope we can work together again.
+                                    </p>
+                                    <a href="#" (click)="scrollToTop()" [routerLink]="['/Client2']"><button
+                                            class="btn btn"
+                                            style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                            More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single item -->
+  <div class="carousel-item">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2  g-4">
+                <div class="col-lg-4 d-none d-md-block">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="rounded-circle shadow-1-strong mb-4"
+                                src="/assets/Reviews/Dr.SnehalSonarkarImage.jpeg" alt="avatar"
+                                style="width: 150px;" />
+                            <h3 class="mb-3" style="color: white;">Dr. Snehal Sonarkar</h3>
+                            <p>Founder of The Gleam Smile Dental Care, Nagpur</p>
+                            <br>
+                            <p class="text-unmuted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Thank you, CarveIt Interiors, for creating such a peaceful and calm environment
+                                to work in.
+                                <i class="fas fa-quote-right pe-2"></i>
+                            </p>
+                            <a href="#" (click)="scrollToTop()" [routerLink]="['/Client1']"><button
+                                    class="btn btn"
+                                    style="text-align: center;background-color: #3A3B3C;color: white; margin-top: 5%;">Know
+                                    More</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 d-none d-lg-block">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="rounded-circle shadow-1-strong mb-4"
+                                src="/assets/Reviews/Dr.PavanRathodImage.jpeg" alt="avatar"
+                                style="width: 150px;" />
+                            <h3 class="mb-3"> Dr. Pavan Rathod</h3>
+                            <p> Maxillofacial surgeon founder of Dentocare Clinic, Nagpur</p>
+                            <p class="text-unmuted">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                Thank you so much, CarveIt Interiors. Working with you has been a great
+                                experience. I hope we can work together again.
+                            </p>
+                            <a href="#" (click)="scrollToTop()" [routerLink]="['/Client2']"><button
+                                    class="btn btn"
+                                    style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                    More</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4  d-lg-block">
+                    <div class="card">
+                        <div class="card-body">
+                            <img class="rounded-circle shadow-1-strong mb-4"
+                                src="/assets/Reviews/Mrs. Preetika Raundhal_Edit.jpg" alt="avatar"
+                                style="width: 150px;" />
+                            <h3 class="mb-3"> Mrs. Preetika Raundhal</h3>
+                            <p>Pune</p>
+                            <p class="text-unmuted" style="font-size: 14px; ">
+                                <i class="fas fa-quote-left pe-2"></i>
+                                CarveIt Interiors did a fantastic job on our entrance foyer. They listened
+                                carefully to our ideas and brought them to fruition. They were very affordable
+                                and worked very hard to finish the project on time.
+                                Do not hesitate to make an appointment with CarveIt Interiors. You will not be
+                                disappointed.
+
+                            </p>
+                            <a href="#" style="text-align: end;" (click)="scrollToTop()"
+                                [routerLink]="['/Client3']"><button class="btn btn"
+                                    style="text-align: center;background-color: #3A3B3C;color: white;">Know
+                                    More</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div> 
+        </div>
+        <!-- Inner -->
+    </div>
+    <!-- Carousel wrapper -->
+</div>

@@ -41,6 +41,7 @@ import { OfficespaceComponent } from './gallery/officespace/officespace.componen
 import { ReceptionComponent } from './gallery/reception/reception.component';
 import { RestaurantComponent } from './gallery/restaurant/restaurant.component';
 import { WardrobeComponent } from './gallery/wardrobe/wardrobe.component';
+import { ProcessComponent } from './homess/process/process.component';
 
 
 
@@ -82,7 +83,8 @@ import { WardrobeComponent } from './gallery/wardrobe/wardrobe.component';
     OfficespaceComponent,
     ReceptionComponent,
     RestaurantComponent,
-    WardrobeComponent
+    WardrobeComponent,
+    ProcessComponent
   ],
   imports: [
     BrowserModule,

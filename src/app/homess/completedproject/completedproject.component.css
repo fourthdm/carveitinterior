@@ -1,0 +1,53 @@
+.main {
+    background-image: url('/assets/allimages/Living_Room.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+    padding: 5%;
+    background-color: #393838c4;
+    background-blend-mode: color;
+
+}
+
+.rounded-circle{
+    border: 2px solid #393838c4;
+}
+
+.mb-3{
+    color: white;
+}
+
+.card{
+    background-color: #ffa719ae;
+    height: 100%;
+}
+
+
+
+.img {
+    height: 20%;
+    width: 100%;
+}
+
+h6,p{
+    color: white;
+}
+
+
+@media(max-width:414px) {
+    .d {
+        display: none;
+    }
+    a .btn {
+        margin-inline-start: 1rem;
+    }
+
+}
+
+
+
+@media(max-width:768px) {
+ .btn {
+        margin-left: 0rem;
+    }
+}

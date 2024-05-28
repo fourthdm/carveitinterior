@@ -1,0 +1,44 @@
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.bi-square{
+    padding-right: 1%;
+}
+
+b{
+    padding-right: 1%;
+}
+
+li{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.div{
+    padding: 10%;
+}
+
+@media(max-width:400px){
+    p{
+        font-size: 14px;
+    }
+}
+
+.contact {
+   color: #ffa719;
+    z-index: 2;
+    position: fixed;
+}
+
+.p {
+    display: none;
+}
+
+.contact:hover+.p {
+    display: block;
+    font-size: 15px;
+    color: white;
+    z-index: 1;
+}
