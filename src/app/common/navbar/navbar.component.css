@@ -1,0 +1,48 @@
+.nav-link:hover {
+    font-weight: 700;
+    color: #ffa719;
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    height: 85px;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (min-width: 390px) and (orientation: landscape) {
+    img {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 844px) and (orientation: portrait) {
+    img {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min--moz-device-pixel-ratio: 3),
+only screen and (-o-min-device-pixel-ratio: 3/1),
+only screen and (min-device-pixel-ratio: 3) {
+    img {
+        height: 85px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    img {
+        height: 85px;
+        width: 100%;
+    }
+}

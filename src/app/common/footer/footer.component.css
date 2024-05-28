@@ -1,0 +1,160 @@
+.main{
+    background-color:#3A3B3C;
+    background-image: url('/assets/download.jpg');
+    /* background-size: 100%; */
+    background-blend-mode:multiply;
+}
+
+.list{
+    padding: 1%;     
+    font-size: 30px;
+    margin: 4px;
+    /* background-color: #2A1100; */
+    color: #ffa719;
+    
+}
+
+.list:hover{
+    transform: scale(1.8);
+}
+
+/* @media(max-width:414px){
+    .main{
+        width: 95%;
+    }
+} */
+
+/* .dic{
+    margin-left: 0;
+    color:#ffa719;
+} */
+/* 
+@media(max-width:414px) {
+    .dic{
+        margin-left: 0rem;
+    }
+    .dic h3{
+        font-size: 20px;
+    }
+    .dic h5{
+        font-size: 12px;
+    }
+} */
+
+
+/* @media(max-width:768px) {
+    .dic{
+        margin-left: -4rem;
+    }
+    .dic h3{
+        font-size: 14px;
+    }
+    .dic h5{
+        font-size: 12px;
+    }
+
+     .dic1 p {
+        font-size: 10px;
+    }
+} */
+
+ /* .dic1{
+    padding-left: 20%;
+    color:#ffa719;
+}
+
+.dic1{
+    margin-left: -3rem;
+}
+
+.dic1 p{
+    font-size: 19px;
+} */
+
+@media(max-width:414px){  
+.fa-linkedin-in:hover{
+    color: #0A66C2;
+}
+
+.fa-youtube:hover{
+    color: rgb(200, 36, 36);
+   
+}
+
+.fa-pinterest:hover{
+    color: rgb(204, 28, 28);
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(to right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: skyblue;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+} 
+
+
+.fa-linkedin-in:hover{
+    color: #0A66C2;
+}
+
+.fa-youtube:hover{
+    color: rgb(200, 36, 36);
+}
+
+.fa-pinterest:hover{
+    color: rgb(204, 28, 28);
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(to right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: skyblue;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+@media(max-width:1440px){
+    
+.fa-linkedin-in:hover{
+    color: #0A66C2;
+}
+
+.fa-youtube:hover{
+    color: rgb(200, 36, 36);
+}
+
+.fa-pinterest:hover{
+    color: rgb(204, 28, 28);
+}
+
+.fa-instagram:hover{
+    background: linear-gradient(to right, #515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-twitter:hover{
+    color: skyblue;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+
+}
+
+

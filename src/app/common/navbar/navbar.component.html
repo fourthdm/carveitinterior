@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg fixed-top bg-body">
+    <div class="container-fluid">
+  
+      <a class="navbar-brand" href="#">
+        <img src="/assets/Carveit_Logo_horizontal.png"  alt="">
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarRightAlignExample"
+        aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+        <!-- Left links -->
+  
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" (click)="closeNavbar()">
+          <li class="nav-item">
+            <a class="nav-link text" aria-current="page" (click)="scroll()" href="">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text"  (click)="scroll()" [routerLink]="['/About']">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text"  (click)="scroll()" [routerLink]="['/service']">Services</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link text"  (click)="scroll()" [routerLink]="['/Gallery']">Gallery</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link text"  (click)="closeNavbar()" [routerLink]="['/Portfolio']">Portfolio</a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link text"  (click)="scroll()" [routerLink]="['/Contact']">Contact Us</a>
+          </li>
+  
+          <li></li>
+          <li></li>
+        </ul>
+  
+      </div>
+    </div>
+  </nav>

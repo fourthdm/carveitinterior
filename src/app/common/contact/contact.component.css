@@ -1,0 +1,84 @@
+.main {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+}
+
+.form-label {
+    color: white;
+}
+
+.formcard {
+    max-width: 90%;
+    background-color: #3A3B3C;
+    opacity: 0.9;
+    padding: 5%;
+    z-index: -1;
+}
+
+@media(max-width:400px) {
+    .d {
+        display: none;
+    }
+}
+
+.sideimage {
+    height: 32rem;
+    max-width: 40rem;
+    margin-left: -70%;
+    margin-top: 10%;
+    filter: contrast(100%);
+    /* border:1px solid black */
+}
+
+.cardimg {
+    border: 5px solid #ffa719;
+    /* border-right: 5px solid #ffa719;
+    border-top: 5px solid #ffa719;
+    border-bottom: 5px solid #ffa719; */
+  
+    display: inline-block;
+}
+
+
+
+@media(max-width:768px) {
+    .sideimage {
+        display: none;
+    }
+
+    .formcard {
+        max-width: 100%;
+    }
+}
+
+@media(max-width:1024px) {
+    .sideimage {
+        height: 32rem;
+        width: 25rem;
+    }
+}
+
+
+/* form go to back to home pages icon. */
+.contact {
+
+    color: #ffa719;
+    z-index: 2;
+    position: fixed;
+
+}
+
+.p {
+    display: none;
+}
+
+.contact:hover+.p {
+    display: block;
+    font-size: 15px;
+    color: white;
+    z-index: 1;
+}
+
+/* end  back to homepage css */
